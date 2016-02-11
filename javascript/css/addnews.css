@@ -1,0 +1,29 @@
+.container{
+	width: 500px;
+	height: 700px;
+	margin 60px auto;
+}
+#article{
+	height: 150px;
+}
+#autor{
+	width: 300px;
+}
+#date_now{
+	width: 300px;
+
+}
+#gender{
+	width: 200px;
+	height: 30px;
+}
+.invalid{
+	border: 1px solid maroon;
+}
+.error-on{
+	display: block;
+	color: maroon;
+}
+.error-off{
+	display: none;
+}

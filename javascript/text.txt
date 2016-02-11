@@ -1,0 +1,16 @@
+{
+	"users":[
+				{
+					"imja":"vera",
+					"message":"Good",
+					"mail":"koko@mail.ru",
+					"tel":"56387234"
+				},
+				{
+					"imja":"lena",
+					"message":"but",
+					"mail":"kora@mail.ru",
+					"tel":"5637467234"
+				}
+			]
+}

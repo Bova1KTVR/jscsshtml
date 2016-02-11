@@ -1,0 +1,32 @@
+body{
+    background: url(../img/ricepaper_v3.png);
+}
+#wrapper{
+	width: 950px;
+	height: 1000px;
+	margin: 0 auto;
+	border: 1px solid #574C39;
+}
+.users{
+	width: 850px;
+	height: 950px;
+	border: 0px;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+#user{
+	margin-top: 5px
+	border-bottom: 1px dotted #574C39;
+}
+#user1{
+	margin-top: 5px;
+}
+#user2{
+	margin-top: 5px;
+
+}
+#user3{
+	margin-top: 5px;
+
+}

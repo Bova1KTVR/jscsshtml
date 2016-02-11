@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="et">
+<html> 
+<head>
+    <title>Autogaasiseadmed</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/kontaktstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="nav">
+            <ul>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="#">Pildid</a></li>
+                <li><a href="hinnad.html">Hinnad</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+    </div>
+    <div id="top">
+    </div>
+    <div id="text">
+        <section>
+            <div id="img1">
+            </div>
+        </section>
+        <h1>Ringtee 26, Tartu</h1>
+        <h2>+372 5378 0570 +372 5458 8612</h2>
+        <p>gaasiservis@gmail.com</p>               <p>varuosaexpress@gmail.com</p>
+    </div>
+    <div id="footer">
+    </div>
+</div>
+<div class="container">
+  <h2>Обратная связь:</h2>
+  <form name="form" role="form" method="POST" action="localhost" onsubmit="return valid();">
+    <div class="form-group">
+      <label for="name">Ваше имя:</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+      <p class="error-off" id="errorName">*Заполните поле</p>
+    </div>
+    <div class="form-group">
+      <label for="article">Ваше сообщение:</label>
+      <textarea class="form-control" rows="20" id="article" placeholder="Сообщение"></textarea>
+      <p class="error-off" id="errorArticle">*Заполните поле</p>
+    </div>
+    <div class="form-group">
+      <label for="mail">e-mail:</label>
+      <input type="text" class="form-control" id="mail" placeholder="e-mail">
+      <p class="error-off" id="errorMail">*Заполните поле</p>
+    </div>
+     <div class="form-group">
+      <label for="tel">Контактный телефон:</label>
+      <input type="text" class="form-control" id="tel" placeholder="Телефон">
+      <p class="error-off" id="errorTel">*Заполните поле</p>
+    </div>
+     <div class="form-group">
+      <label for="date_now">Дата:</label>
+      <input type="text" class="form-control" id="date_now" placeholder="Дата">
+    </div>
+      <button type="reset" class="btn btn-default">Очистить</button>
+      <button type="submit" class="btn btn-default">Отправить</button>
+
+  </form>
+</div>
+<script src="../js/kontakt.js"></script>
+</body>
+</html>

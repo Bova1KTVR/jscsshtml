@@ -1,0 +1,117 @@
+body{
+    background: url(../img/ricepaper_v3.png);
+    color: #574C39;
+    font: 1,5em Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #8F8166;
+    text-decoration: underline;
+}
+a:hover{
+    color: #574C39;
+    text-decoration: none;
+}    
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#nav {
+    height: 25px;
+}
+
+#nav ul{
+    margin-right: 25px;
+}
+
+#nav ul li{
+    list-style: none;
+    float: right;
+    padding: 0 10px;
+    font-weight: 600;
+}
+#top{
+    width: 780px;
+    height: 30px;
+    margin: 0 auto;
+    background: url(../img/top.jpg) top center no-repeat;
+}
+
+#text{
+    padding-top: 10px;
+    width: 780px;
+    background: url(../img/back.jpg) repeat-y;
+    margin: 0 auto;
+}
+#text section{
+    padding: 120px 0px;
+    margin-left: 15px;
+    margin-right: 380px;
+    margin-top: -20px;
+    margin-bottom: 100px; 
+    background: url(../img/karta.png) no-repeat ;
+}
+#text h1{
+    margin-left: 400px;
+    margin-right: 15px;
+    margin-top: -300px;
+    text-align: center;   
+}
+#text h2{
+    margin-left: 500px;
+    margin-right: 15px;
+    text-align: inherit;
+}
+#text p{
+    margin-left: 400px;
+    margin-right: 15px;
+    text-align: center;
+}
+#footer{
+    background: url(../img/bottom.jpg) center no-repeat;
+    height: 50px;
+    margin-top: -16px !important;
+    margin-top: 0px;
+}
+
+#footer p{
+    padding: 5px 30px;
+    font-size: 0.75em;
+    text-align: center;
+}
+.container{
+    width: 800px;
+}
+.container h2{
+    color: #574C39;
+
+}
+#article{
+    width: 700px;
+    height: 150px;
+}
+#name{
+    width: 500px;
+}
+#date_now{
+    width: 500px;
+
+}
+#tel{
+    width: 500px;    
+}
+#mail{
+    width: 500px;   
+}
+.invalid{
+    border: 1px solid maroon;
+}
+.error-on{
+    display: block;
+    color: maroon;
+}
+.error-off{
+    color: #FF0000;
+    display: none;
+}

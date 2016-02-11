@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/forma.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Обратная связь:</h2>
+  <form name="form" role="form" method="POST" action="localhost" onsubmit="return valid();">
+    <div class="form-group">
+      <label for="name">Ваше имя:</label>
+      <input type="text" class="form-control" name="name" id="_name" placeholder="Имя">
+      <p class="error-off" id="errorName">*Заполните поле</p>
+    </div>
+    <div class="form-group">
+      <label for="article">Ваше сообщение:</label>
+      <textarea class="form-control" rows="20" id="article" placeholder="Сообщение"></textarea>
+      <p class="error-off" id="errorArticle">*Заполните поле</p>
+    </div>
+    <div class="form-group">
+      <label for="mail">e-mail:</label>
+      <input type="text" class="form-control" id="_mail" placeholder="Маил">
+      <p class="error-off" id="errorMail">*Заполните поле</p>
+    </div>
+     <div class="form-group">
+      <label for="telefon">Контактный телефон:</label>
+      <input type="text" class="form-control" id="_tel" placeholder="Телефон">
+      <p class="error-off" id="errorTelefon">*Заполните поле</p>
+    </div>
+     <div class="form-group">
+      <label for="date_now">Дата:</label>
+      <input type="text" class="form-control" id="date_now" placeholder="Дата">
+    </div>
+      <button type="reset" class="btn btn-default">Очистить</button>
+      <button type="submit" class="btn btn-default">Отправить</button>
+  </form>
+</div>
+
+<script src="../js/addnews.js"></script>
+</body>
+</html>
